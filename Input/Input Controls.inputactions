@@ -1,0 +1,142 @@
+{
+    "name": "Input Controls",
+    "maps": [
+        {
+            "name": "Shop",
+            "id": "c536290c-232d-4070-bb3b-e585e2ff56af",
+            "actions": [
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "6a050fed-cce6-40a1-a31c-249b8612b0e7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Position",
+                    "type": "PassThrough",
+                    "id": "a66418e7-2733-46da-9e0f-4db0ee62886c",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Drop",
+                    "type": "Button",
+                    "id": "987bb1ac-1bb8-46ce-a54a-d47b0b7c1f22",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "74bf0b58-383b-4a59-9853-2eb61ebe2558",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "MouseKeyboard",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4ca6ffca-da77-42a8-8d83-76b2124f1b48",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MouseKeyboard",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "05c1558e-6d7c-41d1-be5e-2f34ea9241af",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "MouseKeyboard",
+                    "action": "Drop",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Fight",
+            "id": "949c72e8-cc02-433b-9bfb-3d210dcf4208",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "98e3e602-aef4-4d00-9b68-7c36bed9596c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "94d234b9-47f9-499d-a494-5df45085a519",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Menu",
+            "id": "369cee74-ddcc-473d-b938-39a269c95f80",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "684e4d5a-5578-45d9-af74-ef662f23d5ef",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0f893529-431c-4064-8206-19a74cb708cd",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "MouseKeyboard",
+            "bindingGroup": "MouseKeyboard",
+            "devices": [
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
